@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Detail</h1>
+
+<img width="100px" src = {{element.image}}>
+
+<div mat-dialog-content>Nombre = {{element.name}}</div>
+<div mat-dialog-content>Especie = {{element.species}}</div>
+<div mat-dialog-content>Genero = {{element.gender}}</div>
+<div mat-dialog-content>Estatus = {{element.status}}</div>
+<div mat-dialog-content>Origen = {{element.origin['name']}}</div>
+
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</div>
